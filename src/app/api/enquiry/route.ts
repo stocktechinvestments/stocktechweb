@@ -33,8 +33,8 @@ export async function POST(req: NextRequest) {
     }
 
     const {error } = await resend.emails.send({
-      from: "Stocktech Investments <onboarding@resend.dev>",
-      to: ["priyeshrai.dev@gmail.com"],
+      from: "Stocktech Investments <admin@stocktechinvestments.com>",
+      to: ["stocktechinvestments@gmail.com"],
       subject: "New Enquiry Form Submission regarding to Training.",
       html: `
         <div style="font-family: Arial, sans-serif; color: #333;">

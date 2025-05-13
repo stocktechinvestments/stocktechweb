@@ -3,7 +3,7 @@ import Button from './Button'
 
 export default function Hero() {
     return (
-        <section className='bg-new-green-300 w-full z-[5]'>
+        <section className='bg-new-green-300 w-full z-[5]' style={{paddingTop:"60px"}}>
             <div className='w-full relative flex gap-3 z-4 max-md:flex-col max-md:gap-10'>
                 <div className='relative w-full pt-3'>
                     <h1 className='hero-heading text-[64px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
