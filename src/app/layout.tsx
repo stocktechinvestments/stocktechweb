@@ -4,6 +4,8 @@ import SmoothScrollProvider from "./SmoothScroll";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Providers from "./NProgress";
+import TopBar from "@/components/TopBar";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "StockTech Investment",
@@ -23,11 +25,13 @@ export default function RootLayout({
       <body>
         <Providers>
           <SmoothScrollProvider>
+            <TopBar/>
             <Header />
             {children}
             <Footer />
           </SmoothScrollProvider>
         </Providers>
+        <GoogleAnalytics gaId="G-6NG8B6WM57" />
       </body>
     </html>
   );

@@ -41,11 +41,11 @@ export default function Header() {
             <nav className='w-full relative flex justify-between items-center bg-new-green-300 gap-5'>
                 <div className='relative max-[816px]:w-[180px] w-[230px]'>
                     <Link href='/'>
-                        <Image src='/assets/logo/logo.png'
+                        <Image src='/assets/logo/logo-01.png'
                             alt='StockTech Investment'
                             width={500}
                             height={200}
-                            className='max-[816px]:w-[180px] h-auto w-[230px]'
+                            className='max-[816px]:w-[180px] h-auto w-[200px]'
                         />
                     </Link>
                 </div>
@@ -66,7 +66,7 @@ export default function Header() {
                         </div>
                         {
                             menuItems.map((item, idx) => (
-                                <li key={idx}>
+                                <li key={idx} onClick={() => setOpenMenu(false)}>
                                     <Link href={item.path}
                                         className={` hover:text-new-green-500 font-medium text-lg 
                                         ${path === item.path ? 'text-new-green-500' :

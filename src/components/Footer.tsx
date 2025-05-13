@@ -30,20 +30,33 @@ export default function Footer() {
                         <div className='w-full flex flex-col gap-1'>
                             <Link href="/" className='text-new-light-500 text-lg hover:text-new-green-500'>Home</Link>
                             <Link href="/about" className='text-new-light-500 text-lg hover:text-new-green-500'>About Us</Link>
-                            <Link href="/mutual-funds" className='text-new-light-500 text-lg hover:text-new-green-500'>Mutual Gunds</Link>
-                            <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>Learn</Link>
-                            <Link href="#" className='text-new-light-500 text-lg hover:text-new-green-500'>Blogs</Link>
+                            <Link href="/mutual-funds" className='text-new-light-500 text-lg hover:text-new-green-500'>Mutual Funds</Link>
+                            <Link href="/learn" className='text-new-light-500 text-lg hover:text-new-green-500'>Learn</Link>
+                            <Link href="/blogs" className='text-new-light-500 text-lg hover:text-new-green-500'>Blogs</Link>
                             <Link href="/contact" className='text-new-light-500 text-lg hover:text-new-green-500'>Contact Us</Link>
                         </div>
                     </div>
                     <div className='w-full flex flex-col gap-10'>
                         <h2 className='text-new-green-500 text-4xl font-bold'>Get to Us</h2>
                         <div className='w-full'>
+
+                            <div className='flex flex-col gap-4'>
+                                <a href='https://maps.app.goo.gl/wp2kRxBidJVqACDT7' className='text-[18px] flex gap-4 items-center text-new-green-500 leading-[1.1]'>
+                                    <img src='/assets/logo/location.svg' className='h-[30px]' /> Gangapuri Colony, Mahmoorganj, Varanasi
+                                </a>
+                                <a href='mailto:stocktechinvestments@gmail.com' className='text-[18px] flex gap-4 items-center text-new-green-500 leading-[1.1]'>
+                                    <img src='/assets/logo/email-2.svg' className='h-[30px]' /> stocktechinvestments@gmail.com
+                                </a>
+                                <a href='tel:+919651727272' className='text-[18px] flex gap-4 items-center text-new-green-500 leading-[1.1]'>
+                                    <img src='/assets/logo/mobile-1.svg' className='h-[30px]' /> +91 96517 27272
+                                </a>
+                            </div>
+
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.445526756259!2d82.96711157415723!3d25.289231227969047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2d4f8372d437%3A0x4662765b0321c7c!2sStockTech%20Investments%20(Motilal%20Oswal%20Franchise%20Partner)!5e0!3m2!1sen!2sin!4v1746683019553!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3606.9655942999866!2d82.982185!3d25.305360000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE4JzE5LjMiTiA4MsKwNTgnNTUuOSJF!5e0!3m2!1sen!2sin!4v1747114887802!5m2!1sen!2sin"
                                 width="100%"
                                 height="200"
-                                style={{ border: "0", borderRadius: "10px" }}
+                                style={{ border: "0", borderRadius: "10px", marginTop:"30px" }}
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade">
                             </iframe>
