@@ -65,7 +65,7 @@ export default function Footer() {
                 </footer>
 
             </section>
-            <div className='max-w-[1440px] mx-auto w-full relative bg-new-blue-500 py-5 border-t border-new-blue-300 text-center text-new-green-300 font-semibold'>
+            <div className='w-full relative bg-new-blue-500 py-5 border-t border-new-blue-300 text-center text-new-green-300 font-semibold'>
                 <p>Copyright {new Date().getFullYear()} @ StockTech Investments | Developed by <a href="https://wizards.co.in/" target='_blank' className='text-new-green-500'>Wizards.</a></p>
             </div>
         </>

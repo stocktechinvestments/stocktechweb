@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TopBar() {
     return (
-        <div className='max-[900px]:hidden w-full max-w-[1440px] bg-new-green-300 mx-auto px-10 py-2 '>
+        <div className='max-[900px]:hidden w-full bg-new-green-300 px-10 py-2 '>
             <div className='w-full flex items-center justify-between'>
                 <a href='https://maps.app.goo.gl/wp2kRxBidJVqACDT7' className='flex gap-2 items-center text-new-dark-300'>
                     <img src='/assets/logo/location.svg' className='h-[20px]' /> Gangapuri Colony, Mahmoorganj, Varanasi

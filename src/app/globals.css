@@ -38,15 +38,15 @@ span {
 section {
   padding: 5.7% 3%;
   overflow: hidden;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 header,
 footer {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 nav {
   padding: 10px 3% 6px;
