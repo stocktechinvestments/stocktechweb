@@ -27,7 +27,7 @@ export default function Hero() {
                     </div>
 
                 </div>
-                <div className='relative z-[5] lg:w-full max-md:w-full max-md:flex justify-center items-center '>
+                <div className='relative z-[5] lg:w-full max-md:w-full flex justify-center items-center '>
                     <img src="/assets/bg/img.png" alt="hero" className=' z-[5] relative' />
                     <div className='absolute left-0 top-0 w-full h-full z-1 layer' style={{ backgroundImage: "url('/assets/bg/bg.png')", backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat" }}></div>
                     <div className='hero-icon p-3 absolute md:w-[80px] md:h-[80px] w-[60px] h-[60px] bg-new-blue-500 rounded-xl 
