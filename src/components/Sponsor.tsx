@@ -45,8 +45,9 @@ export default function Sponsor() {
                     <p className='text-xl font-semibold text-new-blue-500 mt-5 max-w-[540px]'>
                         Start your trading journey with confidence—powered by <strong className='text-new-green-500'>AngelOne</strong> and guided by us.
                     </p>
-                    <div className='relative mt-10 w-full'>
+                    <div className='relative mt-10 w-full flex gap-5 max-[408px]:gap-0 items-center max-[408px]:justify-between'>
                         <Button name='Open Free Demat' path='https://a.aonelink.in/ANGOne/jAw6Hzr' calssName='block w-[fit-content] border border-new-blue-500 max-[396px]:px-5 max-[396px]:py-3 py-5 px-8 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <img src="/assets/logo/angelone.png" alt="hero" className=' z-[5] relative h-[74px] max-[397px]:h-[55px]' />
                     </div>
                 </div>
             </div>

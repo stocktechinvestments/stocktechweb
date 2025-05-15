@@ -17,8 +17,9 @@ export default function MutualFund() {
                         You don&apos;t need to be an expert to invest in mutual funds. You simply choose a fund that fits your financial goals and risk comfort, and the fund manager does the rest. It&apos;s one of the most accessible, low-stress ways to enter the world of investing.
                     </p>
 
-                    <div className='relative mt-10 w-full'>
+                    <div className='relative mt-10 w-full flex gap-5 max-[408px]:gap-0 items-center max-[408px]:justify-between'>
                         <Button name='Invest Now' path='https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc=' calssName='block w-[fit-content] border border-new-blue-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
+                        <img src="/assets/logo/mo.png" alt="hero" className='z-[5] relative h-[74px] max-[397px]:h-[55px]' />
                     </div>
 
                 </div>

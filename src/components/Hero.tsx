@@ -40,6 +40,10 @@ export default function Hero() {
                     <div className='hero-icon p-1 absolute md:w-[80px] border border-new-green-500 md:h-[80px] w-[60px] h-[60px] bg-new-green-300 rounded-xl bottom-[10%] z-10 left-[0]'>
                         <img src="/assets/logo/angelone.png" alt="hero" className=' z-[5] relative' />
                     </div>
+
+                    <div className='hero-icon p-1 absolute md:w-[80px] border border-new-green-500 md:h-[80px] w-[60px] h-[40px] bg-new-green-300 rounded-xl bottom-[10%] z-10 right-[0] flex justify-center items-center '>
+                        <img src="/assets/logo/mo.png" alt="hero" className=' z-[5] relative h-auto' />
+                    </div>
                 </div>
             </div>
         </section>
