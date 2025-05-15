@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState } from 'react';
+import { useEffect, useState } from 'react'
 
 type MenuItem = {
     item: string;
@@ -11,34 +11,38 @@ type MenuItem = {
 
 export default function Header() {
     const path = usePathname()
-    const [openMenu, setOpenMenu] = useState<boolean>(false)
+    const [openMenu, setOpenMenu] = useState(false)
+    const [isSticky, setIsSticky] = useState(false)
+    const [lastScrollY, setLastScrollY] = useState(0)
 
     const menuItems: MenuItem[] = [
-        {
-            item: "Home",
-            path: '/'
-        },
-        {
-            item: "About",
-            path: "/about"
-        },
-        {
-            item: "Mutual Funds",
-            path: "/mutual-funds"
-        },
-        {
-            item: "Learn",
-            path: "/learn"
-        },
-        {
-            item: "Blogs",
-            path: "/blogs"
-        },
+        { item: "Home", path: '/' },
+        { item: "About", path: "/about" },
+        { item: "Mutual Funds", path: "/mutual-funds" },
+        { item: "Learn", path: "/learn" },
+        { item: "Blogs", path: "/blogs" },
     ]
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollY = window.scrollY
+
+            if (currentScrollY < lastScrollY && currentScrollY > 50) {
+                setIsSticky(true)
+            } else {
+                setIsSticky(false)
+            }
+
+            setLastScrollY(currentScrollY)
+        }
+
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [lastScrollY])
+
     return (
-        <header className='w-full relative'>
-            <nav className='w-full relative flex justify-between items-center bg-new-green-300 gap-5'>
+        <header className={`w-full z-40 transition-all duration-300 ${isSticky ? 'fixed top-0 shadow-md' : 'relative'}`}>
+            <nav className={`w-full flex justify-between items-center bg-new-green-300 gap-5 transition-all duration-500 ease-in-out ${isSticky ? 'py-5 px-[3%]' : 'py-[10px] px-[3%] pb-[6px]'}`}>
                 <div className='relative max-[816px]:w-[180px] w-[230px]'>
                     <Link href='/'>
                         <Image src='/assets/logo/logo-01.png'
@@ -52,7 +56,6 @@ export default function Header() {
 
                 <div
                     className={`md:relative md:bg-transparent fixed max-md:top-0 max-md:bottom-0 max-md:left-0 bg-new-blue-500 z-50 max-md:px-5 max-md:py-5 ${openMenu ? 'open-menu-container' : "menu-container"} `}>
-
                     <ul className='flex items-center gap-5 flex-row max-md:flex-col max-md:gap-2 max-md:items-start'>
                         <div className='relative hidden max-md:block mb-10 '>
                             <Link href='/'>
@@ -64,20 +67,17 @@ export default function Header() {
                                 />
                             </Link>
                         </div>
-                        {
-                            menuItems.map((item, idx) => (
-                                <li key={idx} onClick={() => setOpenMenu(false)}>
-                                    <Link href={item.path}
-                                        className={` hover:text-new-green-500 font-medium text-lg 
-                                        ${path === item.path ? 'text-new-green-500' :
-                                                'text-new-blue-300 max-md:text-new-light-500'} `}
-                                    >
-                                        {item.item}
-                                    </Link>
-                                </li>
-
-                            ))
-                        }
+                        {menuItems.map((item, idx) => (
+                            <li key={idx} onClick={() => setOpenMenu(false)}>
+                                <Link href={item.path}
+                                    className={`hover:text-new-green-500 font-medium text-lg 
+                                    ${path === item.path ? 'text-new-green-500' :
+                                            'text-new-blue-300 max-md:text-new-light-500'} `}
+                                >
+                                    {item.item}
+                                </Link>
+                            </li>
+                        ))}
                         <li className='relative'>
                             <Link
                                 href='/contact'
