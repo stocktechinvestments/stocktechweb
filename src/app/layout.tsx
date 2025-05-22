@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import Providers from "./NProgress";
 import TopBar from "@/components/TopBar";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Whatsapp from "@/components/Whatsapp";
 
 export const metadata: Metadata = {
   title: "StockTech Investment",
@@ -28,6 +29,7 @@ export default function RootLayout({
             <TopBar/>
             <Header />
             {children}
+            <Whatsapp/>
             <Footer />
           </SmoothScrollProvider>
         </Providers>
