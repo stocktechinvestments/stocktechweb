@@ -33,6 +33,11 @@ export default function RootLayout({
             `,
           }}
         />
+        <!-- Event snippet for Begin checkout conversion page -->
+        <script>
+          gtag('event', 'conversion', {'send_to': 'AW-16919570508/_AIvCPmtyKkaEMzQ8IM_'});
+        </script>
+
       </head>
       <body>
         <Providers>
