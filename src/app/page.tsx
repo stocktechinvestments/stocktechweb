@@ -7,6 +7,7 @@ import Experience from '@/components/Experience'
 import FAQ from '@/components/FAQ'
 import Hero from '@/components/Hero'
 import MutualFund from '@/components/MutualFund'
+import PopForm from '@/components/PopForm'
 import Services from '@/components/Services'
 import ServicesTwo from '@/components/ServicesTwo'
 import Sponsor from '@/components/Sponsor'
@@ -29,6 +30,7 @@ export default function page() {
       <Testimonials/>
       <FAQ/>
       <Contact/>
+      <PopForm/>
     </>
   )
 }
