@@ -36,8 +36,8 @@ export async function POST(req: NextRequest) {
 
         const { error } = await resend.emails.send({
             from: "Stocktech Investments <admin@stocktechinvestments.com>",
-            to: ["stocktechinvestments@gmail.com"],
-            subject: "New Enquiry Form Submission regarding Training",
+            to: ["stocktechinvestments@gmail.com",'agrawalsales2811@gmail.com'],
+            subject: "New Inquiry on Stocktech Website",
             html: `
         <div style="font-family: Arial, sans-serif; color: #333;">
           <h2>New Enquiry Form Submission</h2>
