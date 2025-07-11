@@ -7,6 +7,7 @@ import Providers from "./NProgress";
 import TopBar from "@/components/TopBar";
 import { GoogleAnalytics } from '@next/third-parties/google'
 import Whatsapp from "@/components/Whatsapp";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "StockTech Investment",
@@ -22,14 +23,26 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="shortcut icon" href="/assets/logo/logo.png" type="image/x-icon" />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16919570508"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-16919570508');
+          `}
+        </Script>
       </head>
       <body>
         <Providers>
           <SmoothScrollProvider>
-            <TopBar/>
+            <TopBar />
             <Header />
             {children}
-            <Whatsapp/>
+            <Whatsapp />
             <Footer />
           </SmoothScrollProvider>
         </Providers>
