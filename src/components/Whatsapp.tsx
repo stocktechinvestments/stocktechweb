@@ -5,7 +5,7 @@ export default function Whatsapp() {
     return (
         <div className="hero-icon fixed bottom-5 right-5 z-50 w-20 h-20 rounded-full flex items-center justify-center">
             <Link
-                href="https://chat.whatsapp.com/Cz1kgclOsszB8hgLcT4bn9"
+                href="https://wa.me/919651727272"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative w-full h-full flex items-center justify-center"
@@ -26,7 +26,7 @@ export default function Whatsapp() {
                             startOffset="50%"
                             textAnchor="middle"
                         >
-                            JOIN OUR WHATSAPP GROUP
+                            Get ur query answered
                         </textPath>
                     </text>
                 </svg>
@@ -34,7 +34,7 @@ export default function Whatsapp() {
                 <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center shadow-2xl z-10">
                     <Image
                         src="/assets/icons/new.svg"
-                        alt="Join our Whatsapp Group Now"
+                        alt="Get ur query answered"
                         width={28}
                         height={28}
                     />
