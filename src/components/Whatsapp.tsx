@@ -26,7 +26,7 @@ export default function Whatsapp() {
                             startOffset="50%"
                             textAnchor="middle"
                         >
-                            Get ur query answered
+                            GET YOUR QUERY ANSWERED
                         </textPath>
                     </text>
                 </svg>
@@ -34,7 +34,7 @@ export default function Whatsapp() {
                 <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center shadow-2xl z-10">
                     <Image
                         src="/assets/icons/new.svg"
-                        alt="Get ur query answered"
+                        alt="GET YOUR QUERY ANSWERED"
                         width={28}
                         height={28}
                     />
