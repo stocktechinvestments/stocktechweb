@@ -31,13 +31,13 @@ function PolicyDetails() {
                         When you submit your details through our lead forms, we may collect your name, phone number and email address. This information is used only to contact you regarding stock market, mutual fund, insurance and investment related services offered by StockTech Investments
                     </p>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
-We do not sell, rent or share your personal information with any third party.<br>
+We do not sell, rent or share your personal information with any third party.<br></br>
 Your information is kept secure and used only for communication and service purposes.
                     </p>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
-If you have any questions about this privacy policy, you can contact us at:<br>
-StockTech Investments<br>
-Email: stocktechinvestments@gmail.com<br>
+If you have any questions about this privacy policy, you can contact us at:<br></br>
+StockTech Investments<br></br>
+Email: stocktechinvestments@gmail.com<br></br>
 Phone: +91-9651727272</p>
                 </div>
             </div>
