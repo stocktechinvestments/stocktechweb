@@ -3,7 +3,7 @@ import Button from '@/components/Button'
 import Contact from '@/components/Contact'
 import React from 'react'
 
-export default function AboutUs() {
+export default function PrivacyPolicy() {
     return (
         <>
             
