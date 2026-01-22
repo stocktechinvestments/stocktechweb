@@ -34,7 +34,7 @@ export default function Footer() {
                             <Link href="/learn" className='text-new-light-500 text-lg hover:text-new-green-500'>Learn</Link>
                             <Link href="/blogs" className='text-new-light-500 text-lg hover:text-new-green-500'>Blogs</Link>
                             <Link href="/contact" className='text-new-light-500 text-lg hover:text-new-green-500'>Contact Us</Link>
-                            <Link href="/privacy" className='text-new-light-500 text-lg hover:text-new-green-500'>Privacy Policy</Link>
+                            <Link href="/policy" className='text-new-light-500 text-lg hover:text-new-green-500'>Privacy Policy</Link>
                         </div>
                     </div>
                     <div className='w-full flex flex-col gap-10'>
