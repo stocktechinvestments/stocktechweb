@@ -29,14 +29,6 @@ function Hero() {
                         Master Technical Analysis, Options Trading, and Portfolio Strategies with Free Expert-Led Sessions and a Free Demat Account.
                     </p>
 
-                    <div className='flex gap-3 mt-10'>
-                        <Button name='Open Free Demat' path='https://a.aonelink.in/ANGOne/jAw6Hzr'
-                            calssName='max-[396px]:px-3 max-[396px]:text-[14px] max-[396px]:py-2 text-new-blue-500 border border-new-blue-500 py-3 px-5 text-md font-semibold rounded-md hover:bg-new-blue-500 hover:text-white transition duration-300 ease-in-out flex items-center justify-center'
-                        />
-                        <Button name='Start Mutual Fund' path='https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc=' calssName='max-[396px]:px-3 max-[396px]:text-[14px] max-[396px]:py-2 border border-new-blue-500 py-3 px-5 text-md font-semibold rounded-md bg-new-blue-500 text-white hover:bg-new-blue-300 hover:border-new-blue-300' />
-
-                    </div>
-
 
                 </div>
                 <div className='relative z-[5] lg:w-full max-md:w-full flex justify-center items-center '>
