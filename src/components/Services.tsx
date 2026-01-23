@@ -42,7 +42,7 @@ export default function Services() {
                                 onClick={() => setIsFormOpen(true)}
                                 className="cursor-pointer block w-fit border border-new-blue-500 py-5 px-8 max-[396px]:px-5 max-[396px]:py-2 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300"
                             >
-                                Enquiry Now
+                                Enquire Now
                             </button>
                         </div>
                     </div>
