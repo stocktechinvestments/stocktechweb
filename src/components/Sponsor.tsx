@@ -10,11 +10,9 @@ export default function Sponsor() {
                 </div>
                 <div className="w-full relative">
                     <h2 className='text-[35px] font-bold text-new-blue-300' style={{ lineHeight: '1.1' }}>
-                        Authorized Partner of <strong className='text-new-green-500'>AngelOne.</strong> Your Trusted Brokerage Platform
+                        Open a Free <strong className='text-new-green-500'>DEMAT</strong>  Account and trade <strong className='text-new-green-500'>₹20 per order.</strong>
                     </h2>
-                    <p className='text-2xl font-medium text-new-dark-500 mt-5'>
-                        Open a Free <strong>DEMAT</strong> Account and trade <strong className='text-new-green-500'>₹20 per order.</strong>
-                    </p>
+
 
                     <p className='text-lg font-light text-new-dark-300 mt-5 flex flex-col gap-2'>
                         <span className='flex gap-3 items-center'>
@@ -43,7 +41,7 @@ export default function Sponsor() {
                         <strong className='text-new-blue-300'>Future, Options, Commodity :  </strong>Rs 20 per executed order
                     </span>
                     <p className='text-xl font-semibold text-new-blue-500 mt-5 max-w-[540px]'>
-                        Start your trading journey with confidence—powered by <strong className='text-new-green-500'>AngelOne</strong> and guided by us.
+                        Start your trading journey with confidence  guided by us.
                     </p>
 
                 </div>
