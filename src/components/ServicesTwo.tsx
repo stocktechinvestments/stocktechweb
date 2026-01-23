@@ -20,17 +20,6 @@ export default function ServicesTwo() {
                                     <p className='text-new-dark-300 mt-3 text-lg'>
                                         Buy and sell stocks with expert insights and real-time market support for informed decision-making.
                                     </p>
-                                    <div className='relative mt-8 w-full'>
-                                        <Link target='_blank' href="https://a.aonelink.in/ANGOne/jAw6Hzr"
-                                            className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
-                                        >
-                                            <span className='font-bold text-xl text-new-blue-500'>EXPLORE NOW</span>
-                                            <div className='absolute right-1.5 w-12 h-12 bg-new-blue-500 rounded-full flex items-center justify-center flex-col p-btn overflow-hidden'>
-                                                <img src="/assets/svg/arrow.svg" alt="" className='first' />
-                                                <img src="/assets/svg/arrow.svg" alt="" className='copy' />
-                                            </div>
-                                        </Link>
-                                    </div>
                                 </div>
                                 <div className='flex-auto'>
                                     <img src="/assets/svg/services-03.svg" alt=""
@@ -45,17 +34,6 @@ export default function ServicesTwo() {
                                 <p className='text-new-dark-300  text-lg'>
                                     Get personalized mutual fund recommendations that match your financial goals and risk profile.
                                 </p>
-                                <div className='relative mt-11 w-full'>
-                                    <Link target='_blank' href="https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc="
-                                        className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
-                                    >
-                                        <span className='font-bold text-xl text-new-blue-500'>INVEST NOW</span>
-                                        <div className='absolute right-1.5 w-12 h-12 bg-new-blue-500 rounded-full flex items-center justify-center flex-col p-btn overflow-hidden'>
-                                            <img src="/assets/svg/arrow.svg" alt="" className='first' />
-                                            <img src="/assets/svg/arrow.svg" alt="" className='copy' />
-                                        </div>
-                                    </Link>
-                                </div>
                             </div>
                         </div>
 
@@ -65,17 +43,6 @@ export default function ServicesTwo() {
                                 <p className='text-new-dark-300  text-lg'>
                                     Open a free Demat account quickly and securely to start your investment journey with ease.
                                 </p>
-                                <div className='relative mt-11 w-full'>
-                                    <Link target='_blank' href="https://a.aonelink.in/ANGOne/jAw6Hzr"
-                                        className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
-                                    >
-                                        <span className='font-bold text-xl text-new-blue-500'>REGISTER NOW</span>
-                                        <div className='absolute right-1.5 w-12 h-12 bg-new-blue-500 rounded-full flex items-center justify-center flex-col p-btn overflow-hidden'>
-                                            <img src="/assets/svg/arrow.svg" alt="" className='first' />
-                                            <img src="/assets/svg/arrow.svg" alt="" className='copy' />
-                                        </div>
-                                    </Link>
-                                </div>
                             </div>
                         </div>
 
@@ -86,17 +53,6 @@ export default function ServicesTwo() {
                                     <p className='text-new-dark-300 mt-3 text-lg'>
                                         Let professionals manage your investments with a strategic approach focused on long-term growth.
                                     </p>
-                                    <div className='relative mt-8 w-full'>
-                                        <Link target='_blank' href="https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc="
-                                            className='serv-btn w-[260px] border border-new-blue-500 py-4 px-5 rounded-full  flex items-center relative '
-                                        >
-                                            <span className='font-bold text-xl text-new-blue-500'>KNOW MORE</span>
-                                            <div className='absolute right-1.5 w-12 h-12 bg-new-blue-500 rounded-full flex items-center justify-center flex-col p-btn overflow-hidden'>
-                                                <img src="/assets/svg/arrow.svg" alt="" className='first' />
-                                                <img src="/assets/svg/arrow.svg" alt="" className='copy' />
-                                            </div>
-                                        </Link>
-                                    </div>
                                 </div>
                                 <div className='flex-auto'>
                                     <img src="/assets/svg/services-04.svg" alt="" className='md:mr-auto max-[550px]:mx-auto max-[550px]: mt-8' />
