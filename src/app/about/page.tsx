@@ -55,10 +55,6 @@ function OurMission() {
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
                         At Stocktech Investments, it&apos;s all about understanding your goals, your concerns, and your vision for the future. We work with you closely to create investment strategies that truly fit your lifestyle — offering support at every step, reducing risks, and helping you make decisions that lead to steady, long-term growth.
                     </p>
-
-                    <div className='relative mt-10 w-full'>
-                        <Button name='Open Free Demat' path='https://a.aonelink.in/ANGOne/jAw6Hzr' calssName='block w-[fit-content] border border-new-blue-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-blue-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
-                    </div>
                 </div>
             </div>
         </section>
