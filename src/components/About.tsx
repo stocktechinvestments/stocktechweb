@@ -16,7 +16,7 @@ export default function About() {
                         The company is led by <strong>Mr. Vinay Agrawal</strong>, who has over 10 years of experience in the stock market and financial advisory, we bring deep insights and a personalized approach to every client.
                     </p>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
-                        As an authorized <strong>AngelOne</strong> franchisee in Varanasi, we specialize in direct equity, mutual funds, and portfolio management services — all tailored to your goals. Whether you&apos;re just starting out or seeking expert portfolio guidance, we&apos;re here to help you invest smartly and responsibly.
+                        We specialize in direct equity, mutual funds, and portfolio management services — all tailored to your goals. Whether you&apos;re just starting out or seeking expert portfolio guidance, we&apos;re here to help you invest smartly and responsibly.
                     </p>
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1' }}>
                         We don&apos;t just offer a platform to invest — we help you make smarter decisions and achieve your financial goals through <strong>direct equity, mutual funds, and portfolio management</strong> services.
