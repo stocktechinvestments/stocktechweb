@@ -60,11 +60,6 @@ function AboutMutualFund() {
                     <p className='text-xl font-medium text-new-dark-300 mt-5' style={{ lineHeight: '1.1' }}>
                         You don&apos;t need to be an expert to invest in mutual funds. You simply choose a fund that fits your financial goals and risk comfort, and the fund manager does the rest. It&apos;s one of the most accessible, low-stress ways to enter the world of investing.
                     </p>
-
-                    <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc=' calssName='block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
-                    </div>
-
                 </div>
                 <div className="relative lg:w-full max-md:w-full flex justify-center items-center">
                     <img src="/assets/mutual/banner.svg" alt="hero" className='' />
@@ -112,10 +107,6 @@ function TypeofMutual() {
                             The goal is to grow your wealth over time while managing risks. You can invest through a Systematic Investment Plan (SIP) or by making a one-time lump sum investment.
                         </span>
                     </p>
-
-                    <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc=' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
-                    </div>
                 </div>
             </div>
         </section>
@@ -271,10 +262,6 @@ function HowTo() {
                             Paperwork Made EasyWe take care of all the documentation and KYC requirements, ensuring a hassle-free onboarding process.
                         </span>
                     </p>
-
-                    <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc=' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
-                    </div>
                 </div>
             </div>
         </section>
@@ -367,10 +354,6 @@ function WhyMutual() {
                             Most mutual funds allow easy withdrawal whenever you need the money.
                         </li>
                     </ul>
-
-                    <div className='relative mt-10 w-full'>
-                        <Button name='Invest Now' path='https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc=' calssName='block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
-                    </div>
                 </div>
 
                 <div className="relative h-full lg:w-full max-md:w-full flex justify-center items-center">
@@ -459,10 +442,6 @@ function WhyUs() {
                             We don&apos;t stop at investment. We track, report, and update you regularly.
                         </li>
                     </ul>
-
-                    <div className='relative mt-10 w-full'>
-                        <Button name='Start Now' path='https://ekyc.motilaloswal.com/partner/mfd/?kzZWSRubKJveEvdPSlKyT2Wu8sMrWJCBeLW7vgOPP/MvViI3pMgXNVgrTzdoiAUzHqcBed8t26M0AqMGjlvii2wJXcWPs8yoJfBfUh2TkjqOpZtOzECLZ2CUZtTUFvfy2V4XVZkvYv6GYTRi7lsbl3tokOjoSBcMRC/BFw6mmpc=' calssName='ml-auto block w-[fit-content] border border-new-green-500 max-[396px]:px-4 max-[396px]:py-2 py-4 px-6 rounded-md font-semibold bg-new-green-500 text-2xl text-new-light-500 hover:bg-new-blue-300 hover:border-new-blue-300' />
-                    </div>
                 </div>
 
 
