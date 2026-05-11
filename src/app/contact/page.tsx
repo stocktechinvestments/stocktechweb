@@ -21,7 +21,7 @@ const ContactMe = () => {
             </div>
             <div className='w-full'>
               <a href='https://maps.app.goo.gl/mLtCu3wyj1Ny5rLE9' target='_blank' className='text-xl text-new-blue-300 font-semibold'>
-                Gangapuri Colony, Mahmoorganj, Varanasi, Uttar Pradesh, India 221010
+                D.64/42 E-2, Madhopur, Sigra, Varanasi, U.P., India - 221010
               </a>
             </div>
           </div>
