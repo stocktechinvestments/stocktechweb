@@ -43,7 +43,7 @@ export default function Footer() {
 
                             <div className='flex flex-col gap-4'>
                                 <a href='https://maps.app.goo.gl/wp2kRxBidJVqACDT7' className='text-[18px] flex gap-4 items-center text-new-green-500 leading-[1.1]'>
-                                    <img src='/assets/logo/location.svg' className='h-[30px]' /> Gangapuri Colony, Mahmoorganj, Varanasi
+                                    <img src='/assets/logo/location.svg' className='h-[30px]' /> D.64/42 E-2 Madhopur, Sigra, Varanasi
                                 </a>
                                 <a href='mailto:stocktechinvestments@gmail.com' className='text-[18px] flex gap-4 items-center text-new-green-500 leading-[1.1]'>
                                     <img src='/assets/logo/email-2.svg' className='h-[30px]' /> stocktechinvestments@gmail.com
