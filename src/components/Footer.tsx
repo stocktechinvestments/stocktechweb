@@ -54,7 +54,7 @@ export default function Footer() {
                             </div>
 
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3606.9655942999866!2d82.982185!3d25.305360000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE4JzE5LjMiTiA4MsKwNTgnNTUuOSJF!5e0!3m2!1sen!2sin!4v1747114887802!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d536.156808030415!2d82.98500004241434!3d25.3102945564428!3m2!1i1024!2i768!4f13.1!2m1!1sD%2064%2042%20E%202%20Madhopur%20Sigra%20Varanasi!5e0!3m2!1sen!2sin!4v1778501843583!5m2!1sen!2sin"
                                 width="100%"
                                 height="200"
                                 style={{ border: "0", borderRadius: "10px", marginTop:"30px" }}
