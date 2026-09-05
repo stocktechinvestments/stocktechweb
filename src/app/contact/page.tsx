@@ -18,14 +18,15 @@ const ContactMe = () => {
           <div className='w-full h-full'>
             <div className='w-full mb-5'>
 <iframe
-  src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d536.156808030415!2d82.98500004241434!3d25.3102945564428!3m2!1i1024!2i768!4f13.1!2m1!1sD%2064%2042%20E%202%20Madhopur%20Sigra%20Varanasi!5e0!3m2!1sen!2sin!4v1778501843583!5m2!1sen!2sin"
+  src="https://maps.google.com/maps?q=25.3102945564428,82.98500004241434&z=16&output=embed"
   width="360"
   height="400"
   style={{ border: 0 }}
   allowFullScreen
   loading="lazy"
   referrerPolicy="no-referrer-when-downgrade"
-></iframe>            </div>
+></iframe>  
+            </div>
             <div className='w-full'>
               <a href='https://maps.app.goo.gl/mLtCu3wyj1Ny5rLE9' target='_blank' className='text-xl text-new-blue-300 font-semibold'>
                 D.64/42 E-2, Madhopur, Sigra, Varanasi, U.P., India - 221010
