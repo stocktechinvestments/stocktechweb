@@ -18,7 +18,8 @@ const ContactMe = () => {
           <div className='w-full h-full'>
             <div className='w-full mb-5'>
 <iframe
-  src="https://maps.google.com/maps?q=25.3102945564428,82.98500004241434&z=16&output=embed"
+  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3606.824739912254!2d82.98228247538553!3d25.31009177763837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE4JzM2LjMiTiA4MsKwNTknMDUuNSJF!5e0!3m2!1sen!2sin!4v1788607997563!5m2!1sen!2sin"
+
   width="360"
   height="400"
   style={{ border: 0 }}
